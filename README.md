@@ -5,7 +5,7 @@
 1. Clone this repository and open it
 
 ```bash
-$ git clone https://github.com/HorusGoul/bun-ts-starter your-next-project
+$ bun create HorusGoul/bun-ts-starter your-next-project
 $ cd your-next-project
 ```
 

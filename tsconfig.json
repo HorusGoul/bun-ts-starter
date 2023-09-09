@@ -1,5 +1,5 @@
 {
-  "extends": "@horus.dev/tsconfig/bun.json",
+  "extends": "./node_modules/@horus.dev/tsconfig/bun.json",
   "compilerOptions": {
     "types": [
       "bun-types" // add Bun global
