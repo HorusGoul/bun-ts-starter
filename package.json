@@ -1,0 +1,25 @@
+{
+  "name": "bun-ts-starter",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot src/index.ts",
+    "start": "bun src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test:coverage": "bun test --coverage",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "bun lint --fix"
+  },
+  "devDependencies": {
+    "@horus.dev/eslint-config": "^1.0.1",
+    "@horus.dev/tsconfig": "^1.1.0",
+    "bun-types": "^1.0.1",
+    "eslint": "^8.49.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "bun": "^1.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+{
+  "extends": ["@horus.dev/eslint-config/base"],
+  "parserOptions": {
+    "tsconfigRootDir": "./",
+    "project": ["./tsconfig.json"]
+  }
+}
